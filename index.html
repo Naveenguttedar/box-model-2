@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box-model-2</title>
+  <style>
+    .box {
+      border: 2px solid red;
+      margin: 5px;
+      padding: 5px;
+    }
+
+    li {
+      border: 2px solid red;
+    }
+
+    .container {
+      width: 500px;
+      margin: 20 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container box">
+    <div class="box">
+      <h1>I'm a box</h1>
+    </div>
+    <div class="box">
+      <p>I'm also a box with some text in it.. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        commodi deleniti voluptatum velit voluptates, itaque doloremque iure ut, numquam atque doloribus dolorem non,
+        amet pariatur impedit totam nemo dicta! Quisquam!</p>
+    </div>
+
+    <ul class="box">
+      <li>this list in a box</li>
+      <li>and all the list items in it are boxes</li>
+    </ul>
+
+    <div>
+      <p>even<span class="box">buttons</span>and <a href="#" class="box">links</a>are boxes</p>
+    </div>
+  </div>
+</body>
+
+</html>
